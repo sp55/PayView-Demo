@@ -15,6 +15,9 @@
 		8465366A1C5A324200DFF845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846536681C5A324200DFF845 /* LaunchScreen.storyboard */; };
 		846536751C5A324200DFF845 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846536741C5A324200DFF845 /* TestTests.m */; };
 		846536801C5A324200DFF845 /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8465367F1C5A324200DFF845 /* TestUITests.m */; };
+		846536901C5A326700DFF845 /* PasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8465368F1C5A326700DFF845 /* PasswordInputView.m */; };
+		846536931C5A344100DFF845 /* PayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 846536921C5A344100DFF845 /* PayView.m */; };
+		846536951C5A344E00DFF845 /* PayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846536941C5A344E00DFF845 /* PayView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		8465367B1C5A324200DFF845 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8465367F1C5A324200DFF845 /* TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUITests.m; sourceTree = "<group>"; };
 		846536811C5A324200DFF845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8465368E1C5A326700DFF845 /* PasswordInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordInputView.h; sourceTree = "<group>"; };
+		8465368F1C5A326700DFF845 /* PasswordInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordInputView.m; sourceTree = "<group>"; };
+		846536911C5A344100DFF845 /* PayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayView.h; sourceTree = "<group>"; };
+		846536921C5A344100DFF845 /* PayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayView.m; sourceTree = "<group>"; };
+		846536941C5A344E00DFF845 /* PayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,7 @@
 				8465365E1C5A324200DFF845 /* AppDelegate.m */,
 				846536601C5A324200DFF845 /* ViewController.h */,
 				846536611C5A324200DFF845 /* ViewController.m */,
+				8465368D1C5A324A00DFF845 /* Class */,
 				846536631C5A324200DFF845 /* Main.storyboard */,
 				846536661C5A324200DFF845 /* Assets.xcassets */,
 				846536681C5A324200DFF845 /* LaunchScreen.storyboard */,
@@ -138,6 +147,18 @@
 				846536811C5A324200DFF845 /* Info.plist */,
 			);
 			path = TestUITests;
+			sourceTree = "<group>";
+		};
+		8465368D1C5A324A00DFF845 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				8465368E1C5A326700DFF845 /* PasswordInputView.h */,
+				8465368F1C5A326700DFF845 /* PasswordInputView.m */,
+				846536911C5A344100DFF845 /* PayView.h */,
+				846536921C5A344100DFF845 /* PayView.m */,
+				846536941C5A344E00DFF845 /* PayView.xib */,
+			);
+			name = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8465366A1C5A324200DFF845 /* LaunchScreen.storyboard in Resources */,
+				846536951C5A344E00DFF845 /* PayView.xib in Resources */,
 				846536671C5A324200DFF845 /* Assets.xcassets in Resources */,
 				846536651C5A324200DFF845 /* Main.storyboard in Resources */,
 			);
@@ -273,9 +295,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846536901C5A326700DFF845 /* PasswordInputView.m in Sources */,
 				846536621C5A324200DFF845 /* ViewController.m in Sources */,
 				8465365F1C5A324200DFF845 /* AppDelegate.m in Sources */,
 				8465365C1C5A324200DFF845 /* main.m in Sources */,
+				846536931C5A344100DFF845 /* PayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
